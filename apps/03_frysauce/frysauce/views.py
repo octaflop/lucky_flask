@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from frysauce import app
-from Flask import render_template
+from flask import render_template
 
 @app.route("/")
 def home():

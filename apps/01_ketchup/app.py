@@ -8,5 +8,6 @@ def hello():
     return "Hello World!"
 
 if __name__ == "__main__":
+    app.static_folder = '../static'
+    app.static_url_path = 'static'
     app.run()
-

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from flask import Flask, render_template
-app = Flask(__name__)
+from frysauce import app
+from Flask import render_template
 
 @app.route("/")
 def home():
@@ -14,9 +14,3 @@ def home():
 
     template_name = "home.html"
     return render_template(template_name, users=users)
-
-if __name__ == "__main__":
-    app.static_folder = '../static'
-    app.static_url_path = 'static'
-    app.debug = True
-    app.run()

@@ -1,11 +1,15 @@
 {% extends '_base.html' %}
 {% block content %}
-<ul>
-  <li>hello</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
+<div class="col-sm-8">
+  <ul class='list-unstyled'>
+    {% for user in users %}
+      <li>
+        {{ user.first_name }} {{ user.last_name }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="col-sm-4">
+  
+</div>
 {% endblock %}

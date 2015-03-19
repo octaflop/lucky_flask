@@ -5,9 +5,15 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    ctx = {}
+    users = [
+        {
+            'first_name': "Faris",
+            'last_name': "Chebib"
+        }
+    ]
+
     template_name = "home.html"
-    return render_template(template_name, ctx=ctx)
+    return render_template(template_name, users=users)
 
 if __name__ == "__main__":
     app.static_folder = '../static'

@@ -9,6 +9,14 @@ def home():
         {
             'username': "faris",
             'email': "faris@theluckybead.com"
+        },
+        {
+            'username': "Pilot Andy",
+            'email': "report_to_faa@faa.gov"
+        },
+        {
+            'username': "David",
+            'email': "david@example.com"
         }
     ]
 

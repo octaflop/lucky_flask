@@ -7,8 +7,8 @@ app = Flask(__name__)
 def home():
     users = [
         {
-            'first_name': "Faris",
-            'last_name': "Chebib"
+            'username': "faris",
+            'email': "faris@theluckybead.com"
         }
     ]
 

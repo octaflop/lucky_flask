@@ -58,3 +58,6 @@ target/
 
 # local
 *.db
+
+# Editors
+*.sublime-*

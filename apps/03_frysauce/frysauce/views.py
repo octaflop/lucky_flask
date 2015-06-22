@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from frysauce import app
-from flask import render_template
+from flask import render_template, request, flash
 
 @app.route("/users/")
 def home():
@@ -15,6 +15,10 @@ def create_user_form():
     """
     template_name = "create_user.html"
     users = []
+    print request.form
+
+    flash(request.form['username'])
+    flash(request.form['email'])
 
     return render_template(template_name, users=users)
 

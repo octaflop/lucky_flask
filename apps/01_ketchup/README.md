@@ -22,7 +22,7 @@ if __name__ == "__main__":
     app.run()
 ```
 
-and run `python myapp.py`. Open your browser to http://localhost:5000/
+and run `python myapp.py`. Open your browser to http://127.0.0.1:5000/
 
 *You may need to close the other python server by hitting `ctrl+C`*
 

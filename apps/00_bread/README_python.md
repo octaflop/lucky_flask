@@ -81,7 +81,7 @@ Did you get through that? Awesome. Now the fun really begins. Run this:
 (lucky)$ python app.py
 ```
 
-Then open your browser to http://localhost:5000/
+Then open your browser to http://127.0.0.1:5000/
 
 ☺
 

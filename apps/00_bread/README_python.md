@@ -84,3 +84,5 @@ Did you get through that? Awesome. Now the fun really begins. Run this:
 Then open your browser to http://localhost:5000/
 
 ☺
+
+Cool, right? Now we can [start developing](../01_ketchup/README.md).

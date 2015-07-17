@@ -87,5 +87,4 @@ When you inevitably run into a bug in your code, do the following:
 4. If that doesn't work, use git's diffing tools to see if other things have changed.
 5. If that still doesn't work, or if the issue is deeper than you thought, step away from the desk. Seriously, if you keep code in your head, you'll focus on the wrong parts of what's causing the breakage.
 
-
 ## [Python!](README_python.md)

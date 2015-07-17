@@ -51,3 +51,41 @@ If you're ever curious about how some website was written, just hit Control+U in
 In Chrome and Firefox, you can open a development tools panel with a special key command (Chrome = F12):
 
 ![Chrome Dev Tools](../static/img/chrome_devtools.png)
+
+## Google-Fu and Documentation
+
+It's no surprise that developers love the Internet. When you are working with a new code library, you should always have a copy of its documentation handy on a separate tab.
+
+## Git & Version Control
+
+A key part of keeping your code organized is the ability to hit "undo" to try something else. A good editor will almost always have an "undo" function. Sometimes, however, undo isn't enough. That's where version control comes in.
+
+A Version Control System (VCS) allows you to revert changes and "rewind" your code to the last state you put it in. It also lets you "clone" someone else's code for your editing pleasure. Git is the de-facto open source standard for sharing code. GitHub is the defacto remote repository for hosting your git code to the public.
+
+For our purposes, unless you're more comfortable with using the command line (or are using linux), we will be using github and its graphical interface:
+
+* [Mac OSX](https://mac.github.com/)
+* [Windows](https://windows.github.com/)
+
+Be advised, GitHub will be releasing a unified [desktop app](https://windows.github.com/) in the near future.
+
+You will need to create a github user account.
+
+Folow [Github's Guide](https://guides.github.com/introduction/getting-your-project-on-github/) for more information.
+
+## The Programmer's Loop
+
+The key to successful development is having your environment set up in such a way as to be able to fail rapidly &amp; safely. As soon as you make a change to your code, you should be able to see its effects right away. If something breaks, you should be able to compare your changes to see what you changed that broke the code.
+
+### Steps to Bug Fixing
+
+When you inevitably run into a bug in your code, do the following:
+
+1. Take a deep breath. Stuff happens.
+2. Ensure you have a testing loop set up (see above).
+3. Undo what you just did and try running the code again.
+4. If that doesn't work, use git's diffing tools to see if other things have changed.
+5. If that still doesn't work, or if the issue is deeper than you thought, step away from the desk. Seriously, if you keep code in your head, you'll focus on the wrong parts of what's causing the breakage.
+
+
+## [Python!](README_python.md)

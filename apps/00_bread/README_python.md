@@ -31,4 +31,56 @@ Copy / Clone your forked repo to a local workspace folder. It's a good idea to h
 $ cd ~/workspace
 # Remember to change <your github name> to your github username
 $ git clone git@github.com:<your github name>/lucky_flask.git
+$ cd lucky_flask
 ```
+
+## virtualenv & virtualenvwrapper
+
+*Pay close attention here, this is the hard part.*
+
+Install [virtualenvwrapper](https://virtualenvwrapper.readthedocs.org/en/latest/). To do so, follow these steps (Caveat Empor: I haven't tried this on Windows):
+
+### Linux & Mac OSX
+```bash
+$ sudo easy_install pip  # The command is different on windows
+```
+
+### Windows
+```bash
+python -m pip install -U pip
+```
+
+Then Follow [This Guide](https://github.com/davidmarble/virtualenvwrapper-win/)
+
+### Linux  Mac OSX
+
+```bash
+$ pip install -U pip # yes, we're using pip to update pip
+$ pip install virtualenvwrapper
+```
+
+### All OSes
+
+```bash
+# Here we set up our virtual environment
+$ mkvirtualenv lucky
+$ workon lucky
+# Here we install python requirements
+(lucky)$ pip install -r requirements # Note that '(lucky)' should now pop up
+```
+
+You will likely have issues for these steps. Just contact me and we'll work through them together. Remember, google is your friend.
+
+
+# Testing it out
+
+Did you get through that? Awesome. Now the fun really begins. Run this:
+
+```bash
+(lucky)$ cd apps/01_ketchup/
+(lucky)$ python app.py
+```
+
+Then open your browser to http://localhost:5000/
+
+☺

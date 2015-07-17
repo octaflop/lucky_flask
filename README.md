@@ -8,7 +8,7 @@
 * **[frysauce](apps/03_frysauce/README.md)** Data structures &amp; Databases — How Computers Remember
 * **[biscotti](apps/04_biscotti/README.md)** Learning on your own — Go forward, fellow autodidacts!
 
-## Installation:
+## Installation Quick-Start:
 
 0. Zed Shaw’s [Learn Python the Hard Way](http://learnpythonthehardway.org/book/ex0.html) has robust instructions on getting your OS (especially windows) prepped for using python.
 1. [Install git](https://help.github.com/articles/set-up-git/) for your computer’s operating system.

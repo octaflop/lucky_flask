@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
-
 from __future__ import unicode_literals
 
 from flask import Flask
 app = Flask(__name__)
+
+
+@app.route("/")
+def index():
+    return "It’s working!!!"
+
 
 @app.route("/hola/<string:elephants>/<int:a>/<int:b>")
 def hello(elephants, a, b):
